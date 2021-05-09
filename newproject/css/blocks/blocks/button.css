@@ -1,0 +1,10 @@
+.button {
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 14px;
+    color: inherit;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    text-transform: uppercase;
+}

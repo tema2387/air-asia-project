@@ -1,0 +1,45 @@
+.services {
+    background: #fff;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 98px;
+    padding-bottom: 70px;
+}
+
+.services__item {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0px;
+}
+
+.services__item-img {
+    width: 100%;
+    margin-right: 5%;
+}
+
+.services__item-title {
+    color: black;
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.services__item-description {
+    color: #303030;
+    margin: 0px;
+    margin-bottom: 39px;
+    line-height: 1.68;
+}
+
+.button--size {
+    padding: 18px 40px;
+}

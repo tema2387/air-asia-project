@@ -1,0 +1,39 @@
+.partners {
+    background: #F4F5F5;
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+.partners__title {
+    color: black;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.partners__item {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0px;
+}
+
+.partners__link {
+    flex: 1;
+    display: flex;
+    text-decoration: none;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
