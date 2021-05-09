@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1161, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Main</title>
 </head>
 
 <body>
@@ -17,20 +17,22 @@
             <header class="header">
                 <img src="./img/headerbackground.png" alt="" class="header__background">
                 <div class="container header__container">
-                    <a href="#abo" class="logo">
-                        <img src="./img/logo.svg" alt="logotype" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                        </ul>
-                    </nav>
-                    <adress class="contacts">
-                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__dropdown">График работы</div>
-                    </adress>
+                    <div class="header__position">
+                        <a href="#abo" class="logo">
+                            <img src="./img/logo.svg" alt="logotype" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                        <adress class="contacts">
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="contacts__dropdown">График работы</div>
+                        </adress>
+                    </div>
                 </div>
             </header>
             <main class="main-content">
@@ -63,7 +65,9 @@
                                     <p class="offers__item-description">Равным образом постоянное обеспечение нашей
                                         деятельности позволяет оценить значение систем массового участия.
                                     </p>
-                                    <a href="#" class="button button--color">Смотреть</a>
+                                    <div class="offers__button-wrapper">
+                                        <a href="#" class="button button--color">Смотреть</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item">
@@ -84,7 +88,9 @@
                                     <p class="offers__item-description">Равным образом постоянное обеспечение нашей
                                         деятельности позволяет оценить значение систем массового участия.
                                     </p>
-                                    <a href="#" class="button button--color">Смотреть</a>
+                                    <div class="offers__button-wrapper">
+                                        <a href="#" class="button button--color">Смотреть</a>
+                                    </div>
                                 </div>
                             </li>
                             <li class="offers__item">
@@ -105,7 +111,9 @@
                                     <p class="offers__item-description">Равным образом постоянное обеспечение нашей
                                         деятельности позволяет оценить значение систем массового участия.
                                     </p>
-                                    <a href="#" class="button button--color">Смотреть</a>
+                                    <div class="offers__button-wrapper">
+                                        <a href="#" class="button button--color">Смотреть</a>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -137,7 +145,8 @@
                         <div class="pagination">
                             <div class="pagination__page">
                                 Страница <span class="pagination__page-index"> 1</span> из<span
-                                    class="pagination__page-end"> 7</span>
+                                    class="pagination__page-end">
+                                    7</span>
                             </div>
                             <ul class="pagination__list">
                                 <li class="pagination__item"><span class="pagination__button">1</span></li>
@@ -169,40 +178,42 @@
         </div>
         <footer class="footer">
             <div class="container footer__container">
-                <a href="#" class="logo">
-                    <img src="./img/logo.svg" alt="logotype" class="logo__img">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                    </ul>
-                </nav>
-                <div class="footer__social">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="#" class="social__item-link"><img src="./img/telegram.svg" alt="telegram"
-                                    class="social__item-icon"></a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__item-link"><img src="./img/vk.svg" alt="vk"
-                                    class="social__item-icon"></a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__item-link"><img src="./img/f.svg" alt="facebook"
-                                    class="social__item-icon"></a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__item-link"><img src="./img/in.svg" alt="instagram"
-                                    class="social__item-icon"></a>
-                        </li>
-                    </ul>
+                <div class="footer__position">
+                    <a href="#" class="logo">
+                        <img src="./img/logo.svg" alt="logotype" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="#" class="social__item-link"><img src="./img/telegram.svg" alt="telegram"
+                                        class="social__item-icon"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__item-link"><img src="./img/vk.svg" alt="vk"
+                                        class="social__item-icon"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__item-link"><img src="./img/f.svg" alt="facebook"
+                                        class="social__item-icon"></a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__item-link"><img src="./img/in.svg" alt="instagram"
+                                        class="social__item-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <adress class="contacts">
+                        <div class="contacts__info">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </adress>
                 </div>
-                <adress class="contacts">
-                    <div class="contacts__info">Бесплатный звонок по России</div>
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </adress>
         </footer>
     </div>
 </body>
