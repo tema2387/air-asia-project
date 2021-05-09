@@ -1,0 +1,43 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+    color: #fff;
+    background: #001821;
+    margin: 0 auto;
+    width: 1920px;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 1141px;
+    margin: auto;
+}
+
+.welcome__container--position {
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}

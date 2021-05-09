@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+}
+
+.header__background {
+    position: absolute;
+    z-index: -5;
+}
+
+.header__container {
+    padding-top: 29px;
+    min-height: 127px;
+}
+
+.header__position {
+    display: flex;
+    align-items: center;
+}

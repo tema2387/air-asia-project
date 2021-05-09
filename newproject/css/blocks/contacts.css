@@ -1,0 +1,22 @@
+.contacts {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__dropdown {
+    text-decoration: underline;
+    font-size: 13px;
+    margin-left: auto;
+    margin-top: -7px;
+}
+
+.contacts__info {
+    font-size: 11px;
+    margin-left: 28px;
+    color: #9A9A9A;
+}

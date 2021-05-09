@@ -1,0 +1,84 @@
+.offers {
+    margin-top: 264px;
+}
+
+.title--icon {
+    background-image: url(../../img/flame.svg);
+    background-repeat: no-repeat;
+    background-position: 280px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 51px;
+}
+
+.offers__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 18px);
+    list-style: none;
+}
+
+.offers__item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.offers__item-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #fff;
+    color: black;
+    padding: 33px 22px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.offers__item-title {
+    margin: 0px;
+    margin-bottom: 21px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.offers__item-periods {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.offers__item-period {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.offers__item-period-text {
+    color: #666666;
+    margin-left: 10px;
+}
+
+.offers__item-description {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.offers__button-wrapper {
+    display: flex;
+    margin-top: auto;
+}
+
+.button--color {
+    background: #fff;
+    border: 1px solid #F5170E;
+    color: #F5170E;
+    padding: 18px 30px;
+}
+
+.button--color:hover {
+    background: #F5170E;
+    color: #fff;
+}
