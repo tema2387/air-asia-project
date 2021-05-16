@@ -15,8 +15,8 @@
 .pagination__item {
     text-align: center;
     font-weight: bold;
-    min-width: 32px;
-    min-height: 32px;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
 }
 
@@ -25,15 +25,21 @@
     background-color: #fff;
     padding: 5px 11px;
     border-radius: 50px;
+    transition: .3s;
 }
 
 .pagination--color {
     color: black;
-    margin-top: 0px;
+    margin-top: 70px;
     padding-bottom: 90px;
 }
 
 .pagination__button--color:hover {
     color: #fff;
     background: red;
+    transition: .3s;
+}
+
+.pagination--position {
+    margin-top: 50px
 }

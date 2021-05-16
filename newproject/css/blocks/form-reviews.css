@@ -1,0 +1,100 @@
+.form-reviews {
+    background: #F4F5F5;
+    color: black;
+    padding-top: 63px;
+    padding-bottom: 96px;
+}
+
+.form-reviews__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 57px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.form__input {
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    flex: 1;
+    margin-right: 28px;
+}
+
+.form__input:focus {
+    outline: 1px solid red;
+}
+
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textaria {
+    height: 235px;
+}
+
+.form__controls {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.form__controls-title {
+    width: 45%;
+    margin-right: 30px;
+    padding-top: 8px;
+}
+
+.controls__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.controls__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.controls__element {
+    cursor: pointer;
+}
+
+.controls__tag--color {
+    background: #E7E7E7;
+}
+
+.controls__checkbox:checked~.controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button--color--black {
+    background: #2B2B2B;
+    color: #fff;
+}
+
+.form__button--color--red {
+    color: #fff;
+}
+
+.form__button--position {
+    margin-right: 17px;
+}
+
+.form__button--position:last-child {
+    margin-right: 0px;
+}

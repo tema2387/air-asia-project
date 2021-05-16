@@ -1,5 +1,7 @@
 @import url(./layout/base.css);
 
+/* Главная*/
+
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
 @import url(./blocks/menu.css);
@@ -14,8 +16,18 @@
 @import url(./blocks/footer.css);
 @import url(./blocks/social.css);
 
+/* Услуги */
+
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/services.css);
 @import url(./blocks/partners.css);
 
+/* Приветсвенная страница */
+
 @import url(./blocks/hello.css);
+
+/* Отзывы */
+
+@import url(./blocks/reviews.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/form-reviews.css);

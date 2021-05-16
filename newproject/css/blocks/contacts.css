@@ -11,12 +11,74 @@
 .contacts__dropdown {
     text-decoration: underline;
     font-size: 13px;
-    margin-left: auto;
     margin-top: -7px;
+    cursor: pointer;
 }
 
 .contacts__info {
     font-size: 11px;
     margin-left: 28px;
     color: #9A9A9A;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.dropdown:hover .dropdown__menu {
+    right: 0;
+    opacity: 0.8;
+}
+
+.dropdown__menu {
+    background: #EDEDED;
+    border-radius: 5px;
+    position: absolute;
+    right: 9999px;
+    padding: 10px 19px;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 160px;
+    top: 100%;
+    margin-top: 8px;
+}
+
+.dropdown__menu:before {
+    content: "";
+    height: 30px;
+    right: 0;
+    left: 0;
+    top: -25px;
+    position: absolute;
+}
+
+.dropdown__list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown__list:before {
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom-color: #EDEDED;
+    width: 0px;
+    height: 0px;
+    left: 100px;
+    bottom: 55px;
+}
+
+.dropdown__item {
+    font-size: 13px;
+    list-style: none;
+    color: #1E1F20;
+    font-weight: bold;
+}
+
+.dropdown__item--weight {
+    font-weight: 600;
 }

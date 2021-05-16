@@ -7,8 +7,114 @@
 
 .social__item {
     margin-right: 10px;
+    width: 36px;
+    height: 36px;
 }
 
 .social__item:last-child {
     margin-right: 0px;
+}
+
+.social__item--telegram:after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -122px -66px;
+}
+
+.social__item--telegram:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -122px -10px;
+    opacity: 0;
+}
+
+.social__item--telegram:hover:before {
+    opacity: 1;
+}
+
+.social__item--telegram:hover:after {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.social__item--vk:after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -66px -122px;
+}
+
+.social__item--vk:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -10px -122px;
+    opacity: 0;
+}
+
+.social__item--vk:hover:before {
+    opacity: 1;
+}
+
+.social__item--vk:hover:after {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.social__item--facebook:after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -66px -66px;
+}
+
+.social__item--facebook:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -10px -66px;
+    opacity: 0;
+}
+
+.social__item--facebook:hover:before {
+    opacity: 1;
+}
+
+.social__item--facebook:hover:after {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.social__item--instagram:after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -10px -10px;
+}
+
+.social__item--instagram:before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(../../img/css_sprites.png) -66px -10px;
+    opacity: 0;
+}
+
+.social__item--instagram:hover:before {
+    opacity: 1;
+}
+
+.social__item--instagram:hover:after {
+    opacity: 0;
+    transition: 0.3s;
 }

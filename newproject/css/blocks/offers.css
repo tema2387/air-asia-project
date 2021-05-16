@@ -81,4 +81,5 @@
 .button--color:hover {
     background: #F5170E;
     color: #fff;
+    transition: .5s;
 }
