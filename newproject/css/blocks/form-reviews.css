@@ -98,3 +98,8 @@
 .form__button--position:last-child {
     margin-right: 0px;
 }
+
+.form__button--color--hover:hover {
+    background: #8E8E8E;
+    transition: .5s;
+}

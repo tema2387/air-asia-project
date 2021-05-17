@@ -3,8 +3,13 @@
     font-weight: bold;
     font-size: 14px;
     color: inherit;
-    background: #F5170E;
+    background: #f7160e;
     border-radius: 35px;
     padding: 18px 40px;
     text-transform: uppercase;
+}
+
+.button:hover {
+    background: #a5100b;
+    transition: .5s;
 }
