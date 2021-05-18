@@ -10,14 +10,17 @@
     bottom: -80px;
 }
 
+.about__container {
+    position: relative;
+}
+
 .about__content {
-    background: url(../../img/mountains.png);
-    background-repeat: no-repeat;
+    background: url(../../img/mountains.png)no-repeat;
     max-width: 785px;
     height: 455px;
     position: absolute;
     top: 97px;
-    right: 381px;
+    right: 0px;
     padding: 71px 202px 71px 81px;
 }
 
