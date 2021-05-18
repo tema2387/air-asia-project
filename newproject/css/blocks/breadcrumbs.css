@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.breadcrumbs__item::after {
+.breadcrumbs__item:after {
     content: "/";
 }
 

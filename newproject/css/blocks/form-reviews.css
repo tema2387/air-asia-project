@@ -17,15 +17,17 @@
 }
 
 .form__input {
-    border: none;
+    border: 1px solid transparent;
     background: #fff;
     padding: 20px 30px;
     flex: 1;
     margin-right: 28px;
+    border-radius: 5px;
 }
 
 .form__input:focus {
-    outline: 1px solid red;
+    border: 1px solid #F5170E;
+    outline: none;
 }
 
 
@@ -35,6 +37,7 @@
 
 .form__input--textaria {
     height: 235px;
+    resize: none;
 }
 
 .form__controls {
@@ -54,6 +57,7 @@
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
 }
 
 .controls__item {
