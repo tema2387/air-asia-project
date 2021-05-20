@@ -1,5 +1,5 @@
 .welcome {
-    padding-top: 60px;
+    padding-top: 68px;
 }
 
 .welcome__title {
@@ -7,10 +7,10 @@
     font-weight: bold;
     font-size: 72px;
     width: 50%;
-    margin-bottom: 28px;
+    margin-bottom: 23px;
 }
 
 .welcome__subtitle {
     font-size: 18px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }

@@ -43,3 +43,7 @@
 .news__subtitle {
     margin: 0px;
 }
+
+.news__content--position {
+    bottom: 7%;
+}
